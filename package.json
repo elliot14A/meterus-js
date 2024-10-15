@@ -1,1 +1,16 @@
-{ "dependencies": { "@grpc/grpc-js": "^1.12.2", "@grpc/proto-loader": "^0.7.13", "grpc-tools": "^1.12.4" } }
+{
+  "name": "meterusjs",
+  "version": "0.0.2",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Elliot Alderson",
+  "license": "ISC",
+  "description": "A node.js client for meterus",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.12.2",
+    "google-protobuf": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/google-protobuf": "^3.15.12"
+  }
+}
